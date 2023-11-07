@@ -1,6 +1,5 @@
 
 /**
- * 
- * @section resources Resources & Quick Links
- * A handful of useful things 
+ * @mainpage ft-spellbook Global Home page
+ * This project is part of ft-spellbook
  */
