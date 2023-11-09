@@ -2,9 +2,39 @@
 /**
  * @mainpage ft-spellbook Global Homepage
  * This project is part of the
- * <a href="https://github.com/ft-spellbook">ft-spellbook</a>
+ * <a href="https://github.com/ft-spellbook">ft-spellbook</a>, a Hivers V
+ * Documentation & Resource Sharing Project.
  * 
- * <br>Random <a href="https://xkcd.com/">xkcd</a>
+ * To access the contents of this project, please see either the sidebar or
+ * the top menu.
+ * 
+ * @section whatis What is the ft-spellbook?
+ * 
+ * The <a href="https://github.com/ft-spellbook">ft-spellbook</a> aims to
+ * provide basic documentation to help users with understanding projects,
+ * without giving outright step-by-step instructions on how to do them. 
+ * 
+ * While the <a href="https://github.com/ft-spellbook">ft-spellbook</a>
+ * repositories and pages sites will often contain project source code, sources
+ * for 42 projects submitted by students are often freely available online, as
+ * such it is not considered to be an issue. Always attempt your own solution,
+ * and, at a minimum, understand the code your efforts have produced.
+ * 
+ * The contents of all repositories in the
+ * <a href="https://github.com/ft-spellbook">ft-spellbook</a>, and any GitHub
+ * Pages sites generated from them, are provided under the
+ * <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public
+ * License v3.0</a>.
+ * 
+ * @section contributing Contributing
+ * All School42 students and alumni are welcome to contribute via pull request
+ * on the <a href="https://github.com/ft-spellbook">ft-spellbook GitHub</a>.
+ * Currently, only <a href="https://github.com/orgs/ft-spellbook/people">an
+ * approved member of the ft-spellbook GitHub organization</a> can merge these
+ * requests. Guidelines for handling contributions have not yet been determined
+ * and will be decided on a case-by-case basis until further notice.
+ * 
+ * <br><br><br><br>Random <a href="https://xkcd.com/">xkcd</a>
  * @htmlonly
  * <div id="xkcd">
  *   <h2>Title</h2>
