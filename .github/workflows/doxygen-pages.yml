@@ -1,4 +1,4 @@
-name: Reusable
+name: Reusable workflow to generate Doxygen documentation and deploy to pages
 
 on:
   workflow_call:
@@ -16,8 +16,8 @@ jobs:
       pages: write
       id-token: write
     environment:
-      name: github-pages
-      url: ${{ steps.doc_deploy.outputs.page_url }}
+      name: pages
+      url: ${{ steps.deploy-pages.outputs.page_url }}
     env:
       DOXYGEN_PROJECT_NAME: ${{ inputs.name }}
       DOXYGEN_PROJECT_BRIEF: ${{ inputs.brief }}
@@ -38,6 +38,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v2
         with:
           path: "docs/html"
-      - id: doc_deploy
+      - id: deploy-pages
         uses: actions/deploy-pages@v2
     
