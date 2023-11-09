@@ -44,8 +44,8 @@ html {
 	height: 15px;
 }
 
-#author_date_table > th
-#author_date_table > td {
+#author_date_table th,
+#author_date_table td {
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
