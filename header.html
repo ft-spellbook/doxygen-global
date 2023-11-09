@@ -49,6 +49,8 @@
 					e = document.getElementById("insane")
 					await new Promise(res => setTimeout(res, 200))
 				}
+				e.textContent = "I wonder what I should put here..."
+				return
 				e.textContent = await (await fetch("https://corsproxy.io/?https://godsays.xyz")).text()
 				e.style.maxWidth = "75%"
 			})()
