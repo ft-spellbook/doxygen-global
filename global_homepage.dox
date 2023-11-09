@@ -3,4 +3,24 @@
  * @mainpage ft-spellbook Global Homepage
  * This project is part of the
  * <a href="https://github.com/ft-spellbook">ft-spellbook</a>
+ * 
+ * <br>Random <a href="https://xkcd.com/">xkcd</a>
+ * @htmlonly
+ * <div id="xkcd">
+ *   <h2>Title</h2>
+ *   <p>Info</p>
+ *   <img>
+ * </div>
+ * <script type="text/javascript">
+ *   (async () => {
+ *     let xkcd_data = await (await fetch("https://corsproxy.io/?https://xkcd.com/info.0.json")).json()
+ *     xkcd_data = await (await fetch(`https://corsproxy.io/?https://xkcd.com/${Math.floor(Math.random() * xkcd_data.num) + 1}/info.0.json`)).json()
+ *     let xkcd_div = document.getElementById("xkcd")
+ *     xkcd_div.children[0].textContent = xkcd_data.title
+ *     xkcd_div.children[1].textContent = `#${xkcd_data.num} ${xkcd_data.day}/${xkcd_data.month}/${xkcd_data.year}`
+ *     xkcd_div.children[2].src = xkcd_data.img
+ *     xkcd_div.children[2].title = xkcd_data.alt
+ *   })()
+ * </script>
+ * @endhtmlonly
  */
