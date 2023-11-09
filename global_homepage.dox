@@ -5,7 +5,7 @@
  * <a href="https://github.com/ft-spellbook">ft-spellbook</a>, a Hivers V
  * Documentation & Resource Sharing Project.
  * 
- * To access the contents of this project, please see either the sidebar or
+ * To access the contents of the <tt>$(DOXYGEN_PROJECT_NAME)</tt> project, please see either the sidebar or
  * the top menu.
  * 
  * @section whatis What is the ft-spellbook?
