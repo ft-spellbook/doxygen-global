@@ -31,9 +31,10 @@ jobs:
           ref: master
           submodules: true
           path: "doxygen-global/"
-      - uses: mattnotmitt/doxygen-action@1.9.5
+      - uses: ssciwr/doxygen-install@v1.2.0
         with:
-          doxyfile-path: "doxygen-global/Doxyfile"
+          version: "1.9.8"
+      - run: "doxygen doxygen-global/Doxyfile"
       - uses: actions/configure-pages@v3
       - uses: actions/upload-pages-artifact@v2
         with:
