@@ -11,7 +11,8 @@
  * Documentation & Resource Sharing Project.
  * 
  * To access the contents of the <tt>$(DOXYGEN_PROJECT_NAME)</tt> project,
- * please see the sidebar or top menu.
+ * please see the sidebar.  
+ * If you are on mobile, see the top menu and "Related Pages" or "Files".
  * 
  * @section repolist List of ft-spellbook Repositories
  * <a href="https://ft-spellbook.github.io/tgrekov-libft">tgrekov-libft</a>
