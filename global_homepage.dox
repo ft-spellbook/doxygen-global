@@ -1,6 +1,7 @@
 
 /**
  * @mainpage ft-spellbook Global Homepage
+ * @tableofcontents
  * @htmlonly
  * <div id="author_date">
  * tgrekov 2023/11/07 2023/12/12
@@ -11,12 +12,18 @@
  * Documentation & Resource Sharing Project.
  * 
  * To access the contents of the <tt>$(DOXYGEN_PROJECT_NAME)</tt> project,
- * please see the sidebar.  
+ * please see the @ref project_summary "Project Summary" page or the sidebar.  
  * If you are on mobile, see the top menu and "Related Pages" or "Files".
  * 
  * @section repolist List of ft-spellbook Repositories
- * <a href="https://ft-spellbook.github.io/ft-spellbook">ft-spellbook</a>  
- * <a href="https://ft-spellbook.github.io/tgrekov-libft">tgrekov-libft</a>  
+ * @subsection repolist__meta_and_general Meta & General
+ * <a href="https://ft-spellbook.github.io/ft-spellbook">ft-spellbook</a>
+ *
+ * @subsection repolist__42_projects 42 Projects
+ * @subsubsection repolist__42_projects__libft libft
+ * <a href="https://ft-spellbook.github.io/tgrekov-libft">tgrekov-libft</a>
+ *
+ * @subsubsection repolist__42_projects__get_next_line get_next_line
  * <a href="https://ft-spellbook.github.io/tgrekov-get_next_line">tgrekov-get_next_line</a>
  * 
  * @section whatis What Is the ft-spellbook?
