@@ -13,6 +13,10 @@ on:
         required: false
         type: string
         default: NO
+      hide_undoc_members:
+        required: false
+        type: string
+        default: NO
 
 jobs:
   docs:
@@ -26,6 +30,7 @@ jobs:
       DOXYGEN_PROJECT_NAME: ${{ inputs.name }}
       DOXYGEN_PROJECT_BRIEF: ${{ inputs.brief }}
       DOXYGEN_EXTRACT_STATIC: ${{ inputs.extract_static }}
+      DOXYGEN_HIDE_UNDOC_MEMBERS: ${{ inputs.hide_undoc_members }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
