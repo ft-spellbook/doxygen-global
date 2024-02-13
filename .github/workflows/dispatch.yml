@@ -9,7 +9,8 @@ jobs:
         repo: [
           "ft-spellbook/tgrekov-libft",
           "ft-spellbook/ft-spellbook",
-          "ft-spellbook/tgrekov-get_next_line"
+          "ft-spellbook/tgrekov-get_next_line",
+          "ft-spellbook/tgrekov-ft_printf"
           ]
     runs-on: ubuntu-latest
     steps:
