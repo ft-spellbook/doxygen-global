@@ -11,8 +11,9 @@ jobs:
           "ft-spellbook/ft-spellbook",
           "ft-spellbook/tgrekov-get_next_line",
           "ft-spellbook/tgrekov-ft_printf",
-          "ft-spellbook/tgrekov-pipex"
-          ]
+          "ft-spellbook/tgrekov-pipex",
+          "ft-spellbook/tgrekov-fdf"
+        ]
     runs-on: ubuntu-latest
     steps:
       - uses: peter-evans/repository-dispatch@v2
