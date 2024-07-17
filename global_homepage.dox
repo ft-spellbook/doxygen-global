@@ -4,7 +4,7 @@
  * @tableofcontents
  * @htmlonly
  * <div id="author_date">
- * tgrekov 2023/11/07 2024/06/24
+ * tgrekov 2023/11/07 2024/07/17
  * </div>
  * @endhtmlonly
  * This project is part of the
@@ -31,9 +31,12 @@
  *
  * @subsubsection repolist__42_projects__pipex pipex
  * <a href="https://ft-spellbook.github.io/tgrekov-pipex">tgrekov-pipex</a>
-*
+ *
  * @subsubsection repolist__42_projects__fdf fdf
  * <a href="https://ft-spellbook.github.io/tgrekov-fdf">tgrekov-fdf</a>
+ *
+ * @subsubsection repolist__42_projects__push_swap push_swap
+ * <a href="https://ft-spellbook.github.io/tgrekov-push_swap">tgrekov-push_swap</a>
  * 
  * @section whatis What Is the ft-spellbook?
  * The <a href="https://github.com/ft-spellbook">ft-spellbook</a> aims to
