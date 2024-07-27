@@ -13,7 +13,8 @@ jobs:
           "ft-spellbook/tgrekov-ft_printf",
           "ft-spellbook/tgrekov-pipex",
           "ft-spellbook/tgrekov-fdf",
-          "ft-spellbook/tgrekov-push_swap"
+          "ft-spellbook/tgrekov-push_swap",
+          "ft-spellbook/tgrekov-philosophers"
         ]
     runs-on: ubuntu-latest
     steps:
